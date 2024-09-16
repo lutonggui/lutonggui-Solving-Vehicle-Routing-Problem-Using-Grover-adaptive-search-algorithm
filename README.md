@@ -1,1 +1,3 @@
 # lutonggui-Solving-Vehicle-Routing-Problem-Using-Grover-adaptive-search-algorithm
+
+File 3L-1V-big-w-threshold-250-one-iteration.py contains the code for executing a single iteration of the instance (3,1). Additional iterations and code for instances of other scales can be implemented based on this file by making straightforward modifications, such as adding or removing code and changing parameters.
