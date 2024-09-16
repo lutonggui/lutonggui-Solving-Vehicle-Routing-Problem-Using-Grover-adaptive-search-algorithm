@@ -385,7 +385,7 @@ for key, value in result.items():
         out[key] = value
 
 # Save
-np.save('3L_1V_250.npy', out)  # 注意带上后缀名
+np.save('3L_1V_250.npy', out)  
 
 for key in out:
     print(key + ": " + str(out[key]))
