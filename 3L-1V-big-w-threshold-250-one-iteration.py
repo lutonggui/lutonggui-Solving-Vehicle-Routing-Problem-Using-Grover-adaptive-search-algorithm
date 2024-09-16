@@ -217,8 +217,8 @@ prog.insert(H(zbits))
 prog.insert(H(consbits))
 
 # encoding f-cT
-Yi_ci(W, zbits, Locations, m)  # 一次项编码
-UG(c, m, zbits)  # 常数项编码
+Yi_ci(W, zbits, Locations, m)  
+UG(c, m, zbits)  
 
 
 K = 5  
@@ -259,7 +259,7 @@ def Cons_encoding():
     for i in range(q):
         prog.insert(X(consbits[i]))
         cvec_C.append(consbits[i])
-    prog.insert(X(conabits[1]).control(cvec_C))  # 若满足条件，将一个cona比特反转
+    prog.insert(X(conabits[1]).control(cvec_C))  
     for i in range(q):
         prog.insert(X(consbits[i]))
     
